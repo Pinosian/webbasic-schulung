@@ -1,9 +1,48 @@
-/* TEXT: font, color, size */
+/* alt */
 
-/* FORMEN: Border, box-shadow, background-color, border-radius */
+* {
+    font-family: Poppins;
+}
 
-/* LAYOUT: Flexbox, Grid, Padding, Margin */
+body {
+    display: flex;
+    flex-direction: column;
+}
 
-/* RESPONSIVE LAYOUT: @Media */
+.todo-list {
+    display: flex;
+    flex-direction: column;
+}
 
-/* ANIMATIONEN: Transition, @Keyframes */
+/* --- NEW --- */
+
+button.add {
+    border: 1px solid lightgrey;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    background-color: rgba(16, 94, 16, 0.514);
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-top: 20px;
+}
+
+.check, .content, .delete {
+    padding: 5px;
+}
+
+.check i {
+    opacity: 0;
+}
+
+.check button {
+    border-radius: 100%;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: none;
+    border: 2px solid grey;
+    padding: 0px;
+}
+
+.elem {
+    display: grid;
+    grid-template-columns: max-content 1fr max-content;
+}
