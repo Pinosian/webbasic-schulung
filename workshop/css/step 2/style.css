@@ -25,6 +25,11 @@ button.add {
     margin-top: 20px;
 }
 
+.elem {
+    display: grid;
+    grid-template-columns: max-content 1fr max-content;
+}
+
 .check, .content, .delete {
     padding: 5px;
 }
@@ -42,7 +47,3 @@ button.add {
     padding: 0px;
 }
 
-.elem {
-    display: grid;
-    grid-template-columns: max-content 1fr max-content;
-}
