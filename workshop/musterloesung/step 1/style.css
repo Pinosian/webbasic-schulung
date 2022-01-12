@@ -1,0 +1,13 @@
+* {
+  font-family: Poppins;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+}
