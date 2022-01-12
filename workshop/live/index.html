@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo-Liste</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+  </head>
+
+  <body>
+    <h2>Meine ToDos</h2>
+    <div class="todo-list">
+      <p>Das sind meine ToDos:</p>
+    </div>
+    <!-- 
+      Überlegt euch eine mit div Elementen eine Container Struktur wie ein To-Do aussieht.
+      Ein ToDo Element hat einen check Button (zum abhaken) den Inhalt und einen löschen Button.
+      Weißt all euren Elementen entsprechende Klassen zu.
+      Fügt außerdem nach dem ToDo einen Button hinzu, der den Titel "Add" trägt.
+      (3 min)
+     -->
+    <div class="todo" id="todo-1">
+      <div class="check" id="check-1">
+        <button><i class="fas fa-check"></i></button>
+      </div>
+      <div class="content"><strong>Protkoll</strong></div>
+      <div class="delete"><i class="fas fa-times"></i></div>
+    </div>
+
+    <!-- 
+      Mehrere ToDos einfügen.
+      Setzt für jedes ToDo eine eindeutige ID. Z.B. nach dem Schema "todo-1", "todo-2"...
+      Überlegt euch auch unterschiedliche Inhalte für die ToDos
+      Baut in eines der ToDos einen Link auf eine Seite eurer Wahl ein!
+      Markiert ein ToDo eurer Wahl fett!
+      (3 min)
+     -->
+
+    <div class="todo" id="todo-2">
+      <div class="check" id="check-2">
+        <button><i class="fas fa-check"></i></button>
+      </div>
+      <div class="content">
+        <span style="color: red">Projektbewerbung</span>
+      </div>
+      <div class="delete"><i class="fas fa-times"></i></div>
+    </div>
+
+    <div class="todo" id="todo-3">
+      <div class="check" id="todo-3">
+        <button><i class="fas fa-check"></i></button>
+      </div>
+      <div class="content"><a href="https://google.com">Google Link</a></div>
+      <div class="delete"><i class="fas fa-times"></i></div>
+    </div>
+
+    <button class="add">Add | +</button>
+  </body>
+</html>

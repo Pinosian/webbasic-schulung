@@ -1,0 +1,70 @@
+* {
+  font-family: Poppins;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.todo {
+  display: grid;
+  grid-template-columns: max-content 1fr max-content;
+}
+
+.check,
+.content,
+.delete {
+  padding: 5px;
+}
+
+button.add {
+  border: 1px solid lightgray;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  background-color: #5faaf5;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 20px;
+  transition: 700ms;
+}
+
+.check i {
+  opacity: 0;
+  transition: 600ms;
+}
+
+.check button {
+  border-radius: 100%;
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 2px solid gray;
+  padding: 0px;
+}
+
+button.add:hover {
+  background-color: #000f28;
+  color: white;
+  transition: 700ms;
+}
+
+.check button:hover {
+  background-color: white;
+  border: none;
+  transition: 600ms;
+}
+
+.check button:hover i {
+  opacity: 0.5;
+  transition: 700ms;
+}
+
+.check button:focus i {
+  opacity: 1;
+  transition: 700ms;
+}
+
+.check button:focus {
+  background-color: white;
+  border: none;
+  transition: 700ms;
+}
