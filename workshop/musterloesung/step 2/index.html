@@ -1,47 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ToDo List</title>
 
-    <link rel="stylesheet" href="style.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ToDo List</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-      crossorigin="anonymous"
-    />
-  </head>
-  <body>
-    <h2>Meine ToDos</h2>
-    <div class="todo-list">
-      <div>Das sind meine ToDos:</div>
-      <!-- 
+  <link rel="stylesheet" href="style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+  <h2>Meine ToDos</h2>
+  <div class="todo-list">
+    Das sind meine ToDos:
+    <!--
       Überlegt euch eine mit div Elementen eine Container Struktur wie ein To-Do aussieht.
       Ein ToDo Element hat einen check Button (zum abhaken) den Inhalt und einen löschen Button.
       Weißt all euren Elementen entsprechende Klassen zu.
       Fügt außerdem nach dem ToDo einen Button hinzu, der den Titel "Add" trägt.
       (3 min)
      -->
-      <div class="todo">
-        <div class="check">
-          <button><i class="fas fa-check"></i></button>
-        </div>
-        <div class="content">Projektbewerbung</div>
-        <div class="delete">
-          <i class="fas fa-times"></i>
-        </div>
+    <div class="todo">
+      <div class="check">
+        <button><i class="fas fa-check"></i></button>
       </div>
-
-      <button class="add">Add | +</button>
+      <div class="content">Projektbewerbung</div>
+      <div class="delete">
+        <i class="fas fa-times"></i>
+      </div>
     </div>
-  </body>
+
+    <button class="add">Add | +</button>
+  </div>
+</body>
+
 </html>

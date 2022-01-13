@@ -17,48 +17,53 @@
 
 <body>
   <h2>This is my To-Do List</h2>
+  <!-- 
+          Mehrere ToDos einfügen.
+          Überlegt euch auch unterschiedliche Inhalte für die ToDos
+          Baut in eines der ToDos einen Link auf eine Seite eurer Wahl ein!
+          Markiert ein ToDo eurer Wahl fett!
+          (3 min)
+       -->
   <div class="todo-list">
-    <div class="todo" id="todo-1">
-      <div class="check" id="check-1">
+    <div class="todo">
+      <div class="check">
         <button><i class="fas fa-check"></i></button>
       </div>
-      <div class="content">Protokoll schreiben</div>
-      <div class="delete">
-        <i class="fas fa-times"></i>
-      </div>
-    </div>
-    <!-- 
-        Mehrere ToDos einfügen.
-        Setzt für jedes ToDo eine eindeutige ID. Z.B. nach dem Schema "todo-1", "todo-2"...
-        Überlegt euch auch unterschiedliche Inhalte für die ToDos
-        Baut in eines der ToDos einen Link auf eine Seite eurer Wahl ein!
-        Markiert ein ToDo eurer Wahl fett!
-        (3 min)
-     -->
-    <div class="todo" id="todo-2">
-      <div class="check" id="check-2">
-        <button><i class="fas fa-check"></i></button>
-      </div>
-      <div class="content">
-        <strong style="color: red">Programmieren lernen</strong>
-      </div>
-      <div class="delete">
-        <i class="fas fa-times"></i>
-      </div>
-    </div>
 
-    <div class="todo" id="todo-3">
-      <div class="check" id="check-3">
-        <button><i class="fas fa-check"></i></button>
-      </div>
       <div class="content">
-        <a href="https://google.com">Hausarbeit schreiben</a>
+        <strong>Protokoll schreiben</strong>
       </div>
+
       <div class="delete">
         <i class="fas fa-times"></i>
       </div>
     </div>
+    <div class="todo">
+      <div class="check">
+        <button><i class="fas fa-check"></i></button>
+      </div>
 
+      <div class="content">
+        <span style="color: red">Programmieren lernen</span>
+      </div>
+
+      <div class="delete">
+        <i class="fas fa-times"></i>
+      </div>
+    </div>
+    <div class="todo">
+      <div class="check">
+        <button><i class="fas fa-check"></i></button>
+      </div>
+
+      <div class="content">
+        <a href="https://hc-central.hanseaticconsulting.de">Projektbewerbung abschicken</a>
+      </div>
+
+      <div class="delete">
+        <i class="fas fa-times"></i>
+      </div>
+    </div>
     <button class="add">Add | +</button>
   </div>
 </body>
